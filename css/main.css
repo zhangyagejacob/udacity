@@ -1,0 +1,102 @@
+/* Global */
+* {
+    /* the area on the inside to represent the height & width of the element */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Add media query
+@media only screen and (max-width: 300px) {
+    p {
+        background-color: blue;
+    }
+}
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+hr {
+    height: 3px;
+    background: #7d97ad;
+}
+
+/*
+header {
+    width: 0.5;
+}
+*/
+
+p {
+    word-wrap:break-word;
+}
+
+.bottom {
+    margin-top: 10px;
+}
+
+.section-title {
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.underline {
+line-height: 76px;
+}
+
+.logo {
+    display: -webkit-flex;
+    display: flex;
+    width: 132.67px;
+    margin-top: 20px;
+}
+
+.info {
+    width: 66.66667%
+}
+
+/*
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+*/
+
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.signature {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+    .img-shrink {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .title-intro {
+
+    }
+}
